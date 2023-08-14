@@ -1,22 +1,22 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: VeggiesVille
+  site: 'https://veggiesville.com/'
   base: '/'
-  trailingSlash: false
+  trailingSlash: true
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ''
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: VeggiesVille.com - Gardening Blog
+    template: '%s — VeggiesVille'
+  description: 'VeggiesVille.com is a site about Gardening tools and tutorials and tools.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: VeggiesVille
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -50,7 +50,7 @@ apps:
 
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: '' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
       robots:
         index: true
 
@@ -79,7 +79,7 @@ ui:
         heading: rgb(0 0 0)
         muted: rgb(40 40 40)
         bgPage: rgb(255 255 255)
-        primary: rgb(0 124 220)
+        primary: rgb(0,128,0)
         secondary: rgb(30 58 138)
         accent: rgb(109 40 217)
         info: rgb(119 182 234)

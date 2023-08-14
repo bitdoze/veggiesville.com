@@ -3,37 +3,43 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'Gardening',
       links: [
         {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
+          text: 'Gardening Tips',
+          href: '/gardening-tips/',
         },
         {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
+          text: 'Gardening Tools',
+          href: '/gardening-tools/',
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Pots Growing',
+      href: '/pots-growing/',
+    },
+    {
+      text: 'Health',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Humans',
+          href: '/humans/',
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Animals',
+          href: '/animals/',
         },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
+      ],
+    },
+    {
+      text: 'Preserve',
+      href: '/pots-growing/',
+    },
+
+    {
+      text: 'Pages',
+      links: [
         {
           text: 'About us',
           href: getPermalink('/about'),
@@ -52,41 +58,7 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
-    {
-      text: 'Contact',
-      href: '#',
-    },
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
 };
 
 export const footerData = {
